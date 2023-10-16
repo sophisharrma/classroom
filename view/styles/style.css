@@ -1,0 +1,104 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+.header-wrapper{
+    
+    border-bottom: solid 1px rgb(150, 150, 150);
+    padding: 2% 0;
+    width: 33.3%;
+    
+}
+.header{
+    margin-bottom: 5%;
+    display: flex;
+}
+.icon{
+width: 50px;
+margin: 1% 5%;
+float: left;
+}
+
+.heading{
+    margin: 0;
+}
+
+
+.signup-form_wrapper{
+    width: 40%;
+    margin-left: 35%;
+    border: 1px solid rgb(202, 200, 200);
+    background-color: white;
+    
+}
+.signup-header{
+    text-align: center;
+    color: green;
+}
+
+.signup-form{
+    padding: 0 10%;
+    
+}
+.label{
+    text-align: center;
+    color: rgb(73, 73, 73);   
+}
+
+.sign-up-button{
+    background-color: green;
+    margin-left: 40%;
+    padding: 1% 3%;
+    border: solid 1px;
+    color: white;
+    cursor: pointer;
+}
+.signup-text{
+    text-align: center;
+    padding-left: 10%;
+}
+.nav-wrapper{
+    margin-bottom: 5%;
+    border-bottom: solid 1px rgb(150, 150, 150);
+    padding: 2% 0;
+    width: 33.3%;
+}
+
+.course{
+    display:inline;
+    
+}
+.course-wrapper{
+    border: 1px solid black;
+    height: 230px;
+    width: 30%;
+    margin: 5% 20% ;
+    padding:  2% 10%;
+    border-radius: 20px;
+}
+.course-heading-link{
+    color: black;
+   
+}
+.add-icon{
+    width: 50px;
+    margin: 0;
+    float: left;
+}
+.add-icon-link{
+    text-decoration: none;
+    margin-top: 20%;
+    color: green;
+    font-size: 25px;
+}
+.assign-wrapper{
+ display: inline-flex;
+ justify-content: space-evenly;
+ width: 100%;
+}
+.assignments{
+background-color: lightgreen;
+border: 1px solid black;
+margin: 0 2%;
+width: 100%;
+}
