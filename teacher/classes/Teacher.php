@@ -2,10 +2,12 @@
 require_once "../../config.php";
 class Teacher extends PDO implements TeacherInterface
 {
-    //properties
+    
     private $name, $teacherId, $email, $desc, $profilePic;
 
+    //used trait
     use GetId;
+
     //getters and setters
     public function setDetails($name, $email, $desc, $profilePic){
         try{
