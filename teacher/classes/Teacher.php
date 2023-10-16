@@ -1,6 +1,5 @@
 <?php
 require_once "../../config.php";
-
 class Teacher extends PDO implements TeacherInterface
 {
     //properties
